@@ -89,7 +89,7 @@
     style="background-image: url('public/backgroundregister.png')"
   >
     <div
-      class="card login-form bg-gradient-to-br from-pink-300 to-br to-purple-300 shadow-xl rounded-lg w-1/3"
+      class="card login-form bg-gradient-to-br from-pink-300 to-br to-purple-300 shadow-xl rounded-lg w-1/3 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3"
     >
       <div class="card-body">
         <div
