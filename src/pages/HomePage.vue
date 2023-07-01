@@ -4,7 +4,7 @@
   >
 
 
-  <header class="bg-neutral-silver">
+  <header class="bg-[#D8C2E9]">
     <nav class="mx-auto flex max-w-7xl h-[100px] items-center justify-between px-10 lg:px-8 " aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
@@ -19,18 +19,18 @@
         </button>
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Anggota</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Pricing</a>
+        <h href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-mediumvioletred-100 cursor-pointer">Home</h>
+        <h href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-mediumvioletred-100 cursor-pointer">About</h>
+        <h href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-mediumvioletred-100 cursor-pointer">Anggota</h>
+        <h href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:text-mediumvioletred-100 cursor-pointer">Pricing</h>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <div class="rounded-3xs bg-mediumvioletred-100 w-[110px] h-[45px] flex flex-col items-center justify-center cursor-pointer">
-          <a href="#" class="text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+          <h href="#" class="text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></h>
         </div>
       </div>
     </nav>
-    <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
+    <Dialog as="div" class="lg:hidden font-inter" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-10" />
       <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
@@ -46,13 +46,13 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Anggota</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Pricing</a>
+              <h href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-200 cursor-pointer">Home</h>
+              <h href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-200 cursor-pointer">About</h>
+              <h href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-200 cursor-pointer">Anggota</h>
+              <h href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-200 cursor-pointer">Pricing</h>
             </div>
             <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-mediumvioletred-100 hover:text-white">Log in</a>
+              <h href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-mediumvioletred-100 hover:text-white">Log in</h>
             </div>
           </div>
         </div>
@@ -232,12 +232,12 @@
     <img
       class="absolute h-[9.95%] w-[20.1%] top-[62.67%] right-[83.66%] bottom-[27.37%] left-[-4%] max-w-full overflow-hidden max-h-full"
       alt=""
-      src="/group-14.svg"
+      src="/daun-kiri.svg"
     />
     <img
       class="absolute h-[9.95%] w-[20.1%] top-[62.67%] right-[-5%] bottom-[27.37%] left-[83.66%] max-w-full overflow-hidden max-h-full"
       alt=""
-      src="/group-15.svg"
+      src="/daun-kanan.svg"
     />
     <img
       class="absolute top-[2970px] left-[1258px] w-[316px] h-[272px] object-cover"
@@ -247,7 +247,7 @@
     <img
       class="absolute top-[2800px] left-[-200px] w-[1219.02px] h-[714px]"
       alt=""
-      src="/group-13.svg"
+      src="/bckgrnd-bwh.svg"
     />
   </div>
 
