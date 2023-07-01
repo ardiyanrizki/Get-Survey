@@ -64,7 +64,6 @@
   </div>
 </template>-->
 
-
 <!-- <template>
   <div>
     <img
@@ -121,7 +120,7 @@
     style="background-image: url('public/Frame 130.png')"
   >
     <div
-      class="card login-form bg-gradient-to-br from-purple-300 to-br to-pink-300 shadow-xl rounded-lg w-1/3"
+      class="card login-form bg-gradient-to-br from-purple-300 to-br to-pink-300 shadow-xl rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3"
     >
       <div class="card-body">
         <div
@@ -197,19 +196,18 @@
   </div>
 </template>
 
-
 <script>
-  import { defineComponent, ref } from "vue";
+import { defineComponent, ref } from "vue";
 
-  export default defineComponent({
-    name: "Login",
-    methods: {
-      onBelumPunyaAkunClick() {
-        this.$router.push("/daftar");
-      },
-      onFrameContainer1Click() {
-        this.$router.push("/home");
-      },
+export default defineComponent({
+  name: "Login",
+  methods: {
+    onBelumPunyaAkunClick() {
+      this.$router.push("/daftar");
     },
-  });
+    onFrameContainer1Click() {
+      this.$router.push("/home");
+    },
+  },
+});
 </script>
