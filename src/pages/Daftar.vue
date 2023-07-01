@@ -86,7 +86,7 @@
 <template>
   <div
     class="flex items-center justify-center h-screen bg-cover bg-center bg-no-repeat"
-    style="background-image: url('backgroundregister.png')"
+    style="background-image: url('public/backgroundregister.png')"
   >
     <div
       class="card login-form bg-gradient-to-br from-pink-300 to-br to-purple-300 shadow-xl rounded-lg w-1/3"
